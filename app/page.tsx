@@ -175,10 +175,10 @@ export default function Home() {
                 "Эргономичное хранение",
               ]}
               images={[
-                "/kitchen/kitchen-1.png",
-                "/kitchen/kitchen-2.png",
-                "/kitchen/kitchen-3.png",
-                "/kitchen/kitchen-4.png",
+                "https://i.ibb.co/tww0vKyf/kitchen-1.png",
+                "https://i.ibb.co/S42rjZ66/kitchen-2.png",
+                "https://i.ibb.co/JjfzFg6P/kitchen-3.png",
+                "https://i.ibb.co/XfKCHwkV/kitchen-4.png",
               ]}
               vkText="Здравствуйте! Пришёл с сайта. Интересует кухня. Нужен замер и дизайн-проект."
             />
@@ -191,10 +191,10 @@ export default function Home() {
                 "Освещение",
               ]}
               images={[
-                "/wardrobe/wardrobe-1.png",
-                "/wardrobe/wardrobe-2.png",
-                "/wardrobe/wardrobe-3.png",
-                "/wardrobe/wardrobe-4.png",
+                "https://i.ibb.co/tww0vKyf/kitchen-1.png",
+                "https://i.ibb.co/S42rjZ66/kitchen-2.png",
+                "https://i.ibb.co/JjfzFg6P/kitchen-3.png",
+                "https://i.ibb.co/XfKCHwkV/kitchen-4.png",
               ]}
               vkText="Здравствуйте! С вашего сайта. Нужна гардеробная система под заказ."
             />
