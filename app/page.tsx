@@ -191,10 +191,11 @@ export default function Home() {
                 "Освещение",
               ]}
               images={[
-                "https://i.ibb.co/tww0vKyf/kitchen-1.png",
-                "https://i.ibb.co/S42rjZ66/kitchen-2.png",
-                "https://i.ibb.co/JjfzFg6P/kitchen-3.png",
-                "https://i.ibb.co/XfKCHwkV/kitchen-4.png",
+                "https://i.ibb.co/sJPR78TX/wardrobe-1.png",
+                "https://i.ibb.co/9zPpMV8/wardrobe-2.png",
+                "https://i.ibb.co/whw7yP0d/wardrobe-3.jpg",
+                "https://i.ibb.co/MxYLtzVN/wardrobe-4.jpg",
+                "https://i.ibb.co/7dVDKLW6/snapedit-1779354207918.jpg",
               ]}
               vkText="Здравствуйте! С вашего сайта. Нужна гардеробная система под заказ."
             />
@@ -207,7 +208,12 @@ export default function Home() {
                 "Офисная мебель",
                 "Мебель для ванной",
               ]}
-              images={["/1.jpg", "/2.jpg", "/3.jpg"]}
+              images={[
+                "https://i.ibb.co/cc73nyL7/b2c38412189ca52fbb1fc29429c2d985.jpg",
+                "https://i.ibb.co/j9cF2dQy/a11fa57833cfe3e71ff4e72952206818.jpg",
+                "https://i.ibb.co/0V2kHqV0/photo-2026-05-21-11-04-00.jpg",
+                "https://i.ibb.co/YBxk1t0f/a94d5ffdd9fdd888d65a12d306676b9a.jpg",
+              ]}
             />
           </div>
         </div>
