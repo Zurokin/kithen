@@ -1,17 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // статический экспорт
+  output: "export",
   reactStrictMode: true,
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.unsplash.com",
-        port: "",
-        pathname: "/**",
-      },
-    ],
+    unoptimized: true, // ← отключает оптимизацию изображений
   },
+  // Если деплоишь на GitHub Pages с подпапкой:
+  // basePath: "/kithen",  // ← название твоего репозитория
 };
 
 module.exports = nextConfig;
