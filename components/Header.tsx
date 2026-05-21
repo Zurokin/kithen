@@ -9,7 +9,6 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import Image from "next/image";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,17 +16,13 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
-        {/* Логотип - теперь большой */}
+        {/* Логотип */}
         <Link href="/" className="flex items-center">
-          <div className="relative h-14 w-auto md:h-20">
-            <Image
-              src="/logo.png"
-              alt="Marti Мебель"
-              fill
-              className="object-contain"
-              priority
-            />
-          </div>
+          <img
+            src="/logo.png"
+            alt="Marti Мебель"
+            className="h-14 md:h-20 w-auto object-contain"
+          />
         </Link>
 
         {/* Десктопная версия */}
