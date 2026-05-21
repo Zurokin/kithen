@@ -71,7 +71,7 @@ export default function Home() {
               <div className="relative w-full max-w-md lg:max-w-lg">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                   <img
-                    src="/logo.jpg"
+                    src="https://i.ibb.co/39Q11ZhB/logo.jpg"
                     alt="Красивая кухня"
                     className="w-full h-auto object-cover"
                     style={{ maxHeight: "500px" }}

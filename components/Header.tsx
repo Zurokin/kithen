@@ -19,7 +19,7 @@ export default function Header() {
         {/* Логотип */}
         <Link href="/" className="flex items-center">
           <img
-            src="/logo.png"
+            src="https://i.ibb.co/67GS2cb1/logo.png"
             alt="Marti Мебель"
             className="h-14 md:h-20 w-auto object-contain"
           />
