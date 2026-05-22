@@ -181,6 +181,7 @@ export default function Home() {
                 "https://i.ibb.co/XfKCHwkV/kitchen-4.png",
               ]}
               vkText="Здравствуйте! Пришёл с сайта. Интересует кухня. Нужен замер и дизайн-проект."
+              imageVersion="v1"
             />
             <ProductCard
               title="Гардеробные системы"
@@ -198,6 +199,7 @@ export default function Home() {
                 "https://i.ibb.co/7dVDKLW6/snapedit-1779354207918.jpg",
               ]}
               vkText="Здравствуйте! С вашего сайта. Нужна гардеробная система под заказ."
+              imageVersion="v1"
             />
             <ProductCard
               title="Мебель для всей семьи"
@@ -214,6 +216,7 @@ export default function Home() {
                 "https://i.ibb.co/0V2kHqV0/photo-2026-05-21-11-04-00.jpg",
                 "https://i.ibb.co/YBxk1t0f/a94d5ffdd9fdd888d65a12d306676b9a.jpg",
               ]}
+              imageVersion="v1"
             />
           </div>
         </div>

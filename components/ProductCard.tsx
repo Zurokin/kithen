@@ -9,6 +9,7 @@ interface ProductCardProps {
   features: string[];
   images: string[];
   vkText?: string;
+  imageVersion?: string; // добавляем пропс для версии
 }
 
 export default function ProductCard({
@@ -16,10 +17,21 @@ export default function ProductCard({
   desc,
   features,
   images,
+  imageVersion = "v1", // по умолчанию v1
 }: ProductCardProps) {
   const [index, setIndex] = useState(0);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [fullscreenIndex, setFullscreenIndex] = useState(0);
+
+  // Добавляем версию к ссылкам на фото
+  const getImageUrl = (url: string) => {
+    // Если уже есть параметры, добавляем через &
+    if (url.includes("?")) {
+      return `${url}&ver=${imageVersion}`;
+    }
+    // Иначе добавляем как параметр
+    return `${url}?ver=${imageVersion}`;
+  };
 
   const next = () => {
     const newIndex = index + 1 >= images.length ? 0 : index + 1;
@@ -83,7 +95,7 @@ export default function ProductCard({
           style={{ padding: 0, border: "none", background: "none" }}
         >
           <img
-            src={images[index]}
+            src={getImageUrl(images[index])}
             alt={title}
             className="w-full h-full object-cover"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
@@ -175,7 +187,7 @@ export default function ProductCard({
           onClick={closeFullscreen}
         >
           <img
-            src={images[fullscreenIndex]}
+            src={getImageUrl(images[fullscreenIndex])}
             alt={title}
             className="max-w-[90vw] max-h-[90vh] object-contain"
             style={{ display: "block", margin: "0 auto" }}
